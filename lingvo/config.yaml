@@ -1,0 +1,4 @@
+ui:
+    startSize: [600, 600]
+core:
+    cycle: true
