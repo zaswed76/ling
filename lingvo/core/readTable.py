@@ -35,7 +35,7 @@ class Table(MutableSequence):
 
     def _init(self):
         for index, row in self.df1.iterrows():
-            item = Item(row[0], row[1], row[2], row[3], index=index)
+            item = Item(row[0], row[1], row[2], None, index=index)
             self._lst.append(item)
 
 
@@ -82,6 +82,9 @@ class Table(MutableSequence):
             return None
 
 if __name__ == '__main__':
-    readTable = Table()
-    readTable.shuffle()
-    print(readTable.data)
+    import paths
+    df = pd.ExcelFile(paths.DATA / 'slovar2.xlsx')
+    df1 = df.parse(df.sheet_names[0])
+    for index, row in df1.iterrows():
+        print(type(row[0]))
+

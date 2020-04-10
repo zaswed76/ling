@@ -1,9 +1,13 @@
 
-CenterFrame {
+CenterLabel {
     background-color: #eeeeee;
     color: #3a3a3a;
     font-family: Helvetica;
     font-size: 124pt;
     font-weight: 600;
     alignment: center;
+}
+
+View {
+    background-color: green;
 }

@@ -1,0 +1,7 @@
+cat zsd sdf
+cat2 zsd    sdf
+cat3     zsd sdf
+   cat4    zsd sdf
+   cat4    zsd   sdf
+      cat4    zsd sdf
+   cat4    zsd  кот
