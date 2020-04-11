@@ -92,6 +92,9 @@ class DictSeq:
     def items(self):
         return self.__data.items()
 
+    def dictNames(self):
+        return list(self.__data.keys())
+
 
 
 if __name__ == '__main__':
