@@ -63,7 +63,7 @@ class Main(QMainWindow):
         getattr(self, "{}Action".format(act.text()))()
 
     def chooseDictAction(self):
-        print("chooseDictAction")
+        print("-chooseDictAction-")
 
     @property
     def dictList(self):
